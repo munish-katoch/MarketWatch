@@ -1,0 +1,10 @@
+abi_version=1.8.0
+builtins_platform=JS
+compiler_version=1.9.24
+depends=org.jetbrains.kotlinx\:kotlinx-serialization-json org.jetbrains.kotlinx\:kotlinx-serialization-core org.jetbrains.kotlin\:kotlin-dom-api-compat kotlin
+ir_signature_versions=1,2
+jsOutputName=MarketWatch-shared
+metadata_version=1.4.1
+serializedIrFileFingerprints=3665hhjybmkw1.25rjdgq1kd61c
+serializedKlibFingerprint=34yzd0a3ad38t.3jk7zd58vz60z
+unique_name=MarketWatch\:shared

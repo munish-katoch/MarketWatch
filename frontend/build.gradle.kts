@@ -1,6 +1,8 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
 plugins {
-    kotlin("multiplatform") version "1.9.24"
-    id("org.jetbrains.compose") version "1.6.10"
+    kotlin("multiplatform")
+    id("org.jetbrains.compose")
 }
 
 kotlin {
@@ -15,7 +17,11 @@ kotlin {
             dependencies {
                 implementation(compose.html.core)
                 implementation(compose.runtime)
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0")
             }
         }
     }
+}
+repositories {
+    mavenCentral()
 }
